@@ -13,8 +13,8 @@ class I386JosElfBinutils < Formula
                              '--disable-nls',
                              '--disable-werror',
                              "--prefix=#{prefix}"
-      system 'make', 'all'
-      system 'make', 'install'
+      system 'make all'
+      system 'make install'
 
     end
     # Avoid conflict with original binutils by homebrew.

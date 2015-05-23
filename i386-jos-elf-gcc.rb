@@ -17,8 +17,8 @@ class I386JosElfGcc < Formula
                              "--prefix=#{prefix}",
                              '--enable-languages=c',
                              '--without-headers'
-      system 'make' 'all-gcc'
-      system 'make' 'install-gcc'
+      system 'make all-gcc'
+      system 'make install-gcc'
     end
   end
 end
